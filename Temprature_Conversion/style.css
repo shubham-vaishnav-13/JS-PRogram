@@ -1,0 +1,52 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);;
+}   
+
+h1{
+    color: rgb(83, 63, 132);
+}
+
+form{
+    background-color: #c3a6bc;
+    text-align: center;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px 25px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(173, 161, 161);
+}
+
+#textBox{
+    text-align: center;
+    width: 50%;
+    font-size: 1.5em;
+    border: 2px solid rgb(138, 114, 114);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+button{
+    margin-top: 15px;
+    background-color: #f1bcf1;
+    font-size: 1.5em;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(151, 124, 144);
+}
+#mySubmit:hover{
+    background-color: #e48de4;
+    cursor: pointer;
+}
+#result{
+    font-weight: bold;
+    font-size: 1.5em;
+}

@@ -1,0 +1,43 @@
+body{
+    background: rgb(2,0,36);
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);}
+#headtext {
+    text-align: center;
+    width: 100%; 
+    background-color: rgb(177, 115, 157);
+    margin: 0 auto;
+    /* use to center */
+    padding: 20px 20px;
+    width: fit-content;
+
+}
+
+#watch{
+    padding-top: 40px;
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    color: rgb(176, 98, 183);
+    font-family: 'Times New Roman', Times, serif;
+}
+#btncontainer{
+    display: flex;
+    gap: 10px;
+}
+
+.btn{
+    padding: 10px 20px;
+    font-size: 1.5em;
+    color: white;
+    background-color: rgb(150, 150, 195);
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.btn:hover{
+    background-color :  rgb(97, 97, 179);
+}

@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+}
+
+#myH1{
+    font-size: 4em;
+    color: #383e59;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #9face6;
+    border: 5px solid;
+    border-radius: 50px;
+    width: 800px;
+
+}
+
+#display{
+    font-size: 5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: #383e59;
+    text-shadow: 2px 2px 2px bisque;
+    margin-bottom: 5px;
+}
+
+#controls button{
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* transition: background-color 0.5 ease; */
+}
+#Startbtn{
+    background-color: #7485d0;
+}
+#Stopbtn{
+    background-color: #c33e3e;
+}
+#Resetbtn{
+    background-color: #5ea952;
+}
+#Startbtn:hover{
+    background-color: #3d55c4;
+
+}
+#Stopbtn:hover{
+    background-color: #b60606;
+ 
+} 
+#Resetbtn:hover {
+    background-color: #5cd862;
+}
+
